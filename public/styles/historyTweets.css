@@ -1,0 +1,60 @@
+/* section all-tweets */
+section.all-tweets {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 0.3em solid;
+  margin-top: 2em;
+}
+
+/* header and inside */
+article header {
+  padding-top: 1em;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h2.tweet-name {
+  color: silver;
+  padding-right: 1em;
+}
+
+article p {
+  /* border-bottom: 0.3em solid; */
+  margin-left: 1em;
+  /* width: 85vw; */
+  padding-bottom: 1em;
+  padding-left: 2em;
+
+  /* zoom in problem */
+}
+
+.line {
+  border-bottom: 2px solid;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+/* why div.profile does not work? */
+div.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* footer and inside */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 1.5em;
+}
+#heart,
+#flag,
+#retweet {
+  color: #4056a1;
+}
