@@ -1,0 +1,16 @@
+#empty{
+  color:red;
+  border: 0.3em solid;
+  padding: 1em;
+  margin: 1em;
+  display:none;
+  font-size: xx-large;
+}
+
+#too-long{
+  color:red;
+  border: 0.3em solid;
+  padding: 1em;
+  margin: 1em;
+  display:none;
+}
