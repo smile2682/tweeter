@@ -30,12 +30,43 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+/* section header and main */
 .container {
   width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f4f1ec;
+  margin-top: 120px;
 }
 
+.header-and-main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+@media only screen and (min-width: 960px) {
+  /* Write CSS rules that target desktop screen size*/
+  .header-and-main {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 140px;
+    width: 90%;
+    flex-wrap: nowrap;
+  }
+
+  header.profile {
+    margin: 1.5em;
+    margin-right: 5em;
+    width: 35%;
+  }
+  .container {
+    margin: 1.5em;
+    width: 65%;
+  }
+}
