@@ -1,44 +1,52 @@
 * {
   box-sizing: content-box;
 }
-nav{
-  
-  color:hsl(0, 0%, 100%);
-  background-color:#4056A1;
+/* navigation bar */
+nav {
+  color: hsl(0, 0%, 100%);
+  background-color: #e3ad24;
   height: 120px;
-  display:flex;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: space-between;
   width: 100%;
   position: fixed;
-
-
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
 }
-.tweeter{
-  font-family:'Bungee';
+/* all @media should be put lower than orignal, nor it will be overide by original */
+@media only screen and (min-width: 960px) {
+  nav {
+    color: hsl(0, 0%, 100%);
+    background-color: #4056a1;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+  }
+}
+/* tweeter logo */
+.tweeter {
+  font-family: "Bungee";
   padding-left: 1.5em;
   padding-top: 2em;
   font-size: xx-large;
-
 }
-
-.write{
+/* write a new tweet button */
+.write {
   padding-top: 1.5em;
   padding-right: 1.5em;
-  display:flex;
+  display: flex;
   align-items: center;
-  flex-direction: column
- 
+  flex-direction: column;
 }
-
-.bold{
+/* the word "write" */
+.bold {
   font-weight: bold;
-  
 }
-
-i{
+/* the red angel button */
+i {
   color: red;
   /* display:flex; */
 }
-
-
