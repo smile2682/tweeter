@@ -86,12 +86,10 @@ $(document).ready(function () {
       method: 'GET',
       dataType: 'json',
       success: (posts) => {
-        console.log(posts);
         renderTweets(posts);
       },
       error: (err) => {
-        console.err(err);
       }
     });
-  };
+  }; loadTweets()
 })
