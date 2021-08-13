@@ -35,6 +35,9 @@ article p {
   margin-left: 1em;
   padding-bottom: 1em;
   padding-left: 2em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #4056a1
 }
 
 .line {
