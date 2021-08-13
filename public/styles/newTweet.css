@@ -1,0 +1,43 @@
+/* new tweet section */
+.new-tweet {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* textarea */
+textarea {
+  border: none;
+  border-bottom: 3px solid black;
+  background-color: #f4f1ec;
+  width: 100%;
+  outline: none;
+  resize: none;
+}
+/* text area placeholder */
+#tweet-text::placeholder {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* footer area */
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  font-family: "Bungee";
+}
+/* tweet button */
+button {
+  background-color: #4056a1;
+  font-family: "Bungee";
+  color: white;
+}
+/* count button regular*/
+count {
+  font-weight: bold;
+}
+/* count button >140 */
+.exceeded {
+  color: red;
+}
