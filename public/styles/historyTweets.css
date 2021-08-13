@@ -37,7 +37,8 @@ article p {
   padding-left: 2em;
   font-size: 1.5em;
   font-weight: bold;
-  color: #4056a1
+  color: #4056a1;
+  word-wrap: break-word;
 }
 
 .line {
